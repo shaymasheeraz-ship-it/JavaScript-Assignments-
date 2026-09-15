@@ -1,3 +1,21 @@
+// Q:1
+
+var input = 'H'; // Change this value to test ('a', 'Z', '5', etc.)
+
+var asciiCode = typeof input === 'string' ? input.charCodeAt(0) : String(input).charCodeAt(0);
+
+if (asciiCode >= 65 && asciiCode <= 90) {
+    console.log(input + " is an Upper Case letter.");
+} else if (asciiCode >= 97 && asciiCode <= 122) {
+    console.log(input + " is a Lower Case letter.");
+} else if (asciiCode >= 48 && asciiCode <= 57) {
+    console.log(input + " is a Number (Digit).");
+} else {
+    console.log(input + " is a Special Character or Not Recognized.");
+}
+
+
+
 // Q:2
 var num1 = Number(prompt("Enter first number:"));
 var num2 = Number(prompt("Enter second number:"));

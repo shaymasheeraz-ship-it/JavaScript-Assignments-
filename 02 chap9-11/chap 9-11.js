@@ -57,9 +57,9 @@ if (c === 14) {
 
 
 var materialCost = 20000;
-var laborCost = 2000;
-var totalCost = materialCost + laborCost;
-if (totalCost=== laborCost + materialCost) {
+var labourCost = 2000;
+var totalCost = materialCost + labourCost;
+if (totalCost === labourCost + materialCost) {
     alert("The cost equals");
 }
 if (true) {
@@ -123,7 +123,7 @@ if ("car" < "cat") {
 var secretNumber = 7;
 var userGuess = Number(prompt("Guess the secret number (between 1 and 10):"));
 if (userGuess === secretNumber) {
-    console.log("Bingo! Correct answer.");
+    console.log("Correct answer.");
 }
 else if (userGuess === secretNumber + 1 || userGuess === secretNumber - 1) {
     console.log("Close enough to the correct answer.");
