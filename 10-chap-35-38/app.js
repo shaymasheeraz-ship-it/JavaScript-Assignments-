@@ -55,11 +55,13 @@
 
 // 5
 
-// var num = +prompt("Enter number");
-// var square = num * num;
+// function square(a){
 
-// document.write("Square of " + num + "is :" + square);
+//     console.log(a*a);
+    
+// }
 
+// square(5)
 
 
 // 6
@@ -88,6 +90,17 @@
 
 // 8
 
+function hyp(base, perp){
+    function square(a,c){
+    return hyp
+}
+var hypo = (base*base)+(perp*perp)
+}
+
+console.log(hyp(3,6));
+
+
+
 // 9
 
 // i
@@ -111,7 +124,7 @@
 
 // 10
 
-// var str = prompt("Enter a string");
+// var str = prompt("Enter a string")
 // var reversedStr = str.split("").reverse().join("");
 
 // if (str === reversedStr) {
@@ -119,8 +132,47 @@
 // } else {
 //     console.log(str + " is NOT Palindrome");
 // }
+// _____________________________________
+var string = prompt("Enter a string");
+var reverse = ""
 
-// 11
+function palindrome(str){
+
+    for (var i = str.length-1 ;i>=0 ; i--){
+            reverse = reverse + str[i]
+        
+    }
+ 
+if (str === reverse) {
+    console.log(str + " is Palindrome");
+} else {
+    console.log(str + " is not Palindrome");
+}
+}
+palindrome(string)
+
+
+// ___________________________
+// var str = prompt("Enter a string").toLowerCase()
+// var reverse = ""
+// for (var i = str.length-1 ;i>=0 ; i--){
+//     reverse = reverse + str[i]
+// }
+
+// if (str === reverse) {
+//     console.log(str + " is Palindrome");
+// } else {
+//     console.log(str + " is not Palindrome");
+// }
+// -___________________________-
+
+
+
+
+
+
+
+// Q:11
 // var str = prompt("Enter string: e.g the quick brown fox");
 
 // var words = str.split(" ");
@@ -163,3 +215,8 @@
 // }
 
 // console.log(count); 
+
+
+
+
+
